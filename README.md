@@ -65,6 +65,11 @@ GET http://localhost:3000/api/blackbox?text=Hello%20AI&conversationId=1&model=gp
   "response": "AI's response here."
 }
 ```
+**Test Deployed API**:
+
+```http
+GET https://blackbox-api-chi.vercel.app/api/blackbox?text=Hello%20AI&conversationId=435HGS&model=gpt-4o
+```
 
 ### Error Handling
 
