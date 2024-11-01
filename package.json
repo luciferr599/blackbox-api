@@ -1,0 +1,16 @@
+{
+  "name": "blackbox-api",
+  "version": "1.0.0",
+  "description": "A simple and interactive multi-conversational blackbox api.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["ai", "blackbox", "gpt"],
+  "author": "Samir Thakuri",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "express": "^4.21.1"
+  }
+}
