@@ -3,7 +3,7 @@ const axios = require('axios');
 
 class BlackboxAI {
   constructor(model = 'blackboxai') {
-    this.apiUrl = 'https://www.blackbox.ai/api/chat';
+    this.apiUrl = 'https://api.blackbox.ai/api/chat';
     this.headers = {
       'Content-Type': 'application/json',
       // Add any necessary headers here, like Authorization if needed
